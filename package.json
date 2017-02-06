@@ -2,7 +2,7 @@
   "name": "winter-wonderland",
   "version": "1.0.0",
   "description": "README.md",
-  "main": "entry.js",
+  "main": "index.js",
   "dependencies": {
     "webpack": "~2.2.1"
   },
@@ -11,7 +11,7 @@
     "webpack-dev-server": "~2.3.0"
   },
   "scripts": {
-    "start": "webpack-dev-server --progress --colors entry.js",
+    "start": "webpack-dev-server --progress --colors index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
